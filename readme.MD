@@ -27,7 +27,10 @@ Requirements:
 - Run laravel's artisan seeder to populate the tables `php artisan db:seed`
 - Run the dev web server `php artisan serve`
 - Access the server's URL (defacto 127.0.0.1:8000)
-- To access the RestAPI endpoints, I have provided a POSTMAN file to help test the endpoints: `Projects and Tasks API test.postman_collection.json`
+- To access the RestAPI endpoints, I suggest using a tool like POSTMAN, the URLS are:
+  - /projects *(for the projects)*
+  - /projects/{id_project}/tasks  *(for the tasks of each project)*
+- Request verbs are the usual (GET, PUT, DELETE..)
 
 *Feel free to email me for further questions or updates :)*
 
